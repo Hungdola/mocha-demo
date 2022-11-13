@@ -35,7 +35,7 @@ describe('function countEventNumbers()', () => {
 
     it('should equal 2 if [1, 2, 3, 4]', () => {
         const result = myObj.countEventNumbers([1, 2, 3, 4]);
-        expect(result).to.equal(2);
+        expect(result).to.equal(3);
     });
 });
 
